@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -12695,6 +12695,81 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="n39">
+<description>parts missing @netz39</description>
+<packages>
+<package name="DC_JACK_HEBO13">
+<description>&lt;h1&gt;Hohlstecker-Printeinbaubuchse, gewinkelt&lt;/h1&gt;
+&lt;p&gt;Reichelt: &lt;a href="http://www.reichelt.de/index.html?ARTICLE=35275"&gt;HEBO 13&lt;/a&gt;&lt;/p&gt;</description>
+<pad name="INNER" x="0" y="1.27" drill="1.1" shape="long" rot="R180"/>
+<pad name="OUTER" x="0" y="-3.81" drill="1.1" shape="long" rot="R180"/>
+<wire x1="-2.78" y1="1.52" x2="2.72" y2="1.52" width="0.127" layer="21"/>
+<wire x1="2.72" y1="1.52" x2="2.72" y2="-9.98" width="0.127" layer="21"/>
+<wire x1="2.72" y1="-9.98" x2="-2.78" y2="-9.98" width="0.127" layer="21"/>
+<wire x1="-2.78" y1="-9.98" x2="-2.78" y2="1.52" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-3.81" x2="-0.635" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-8.255" x2="0.635" y2="-3.81" width="0.127" layer="21" style="longdash"/>
+<wire x1="0.635" y1="-3.81" x2="0" y2="-3.81" width="0.127" layer="21" style="longdash"/>
+<wire x1="0" y1="-3.81" x2="-0.635" y2="-3.81" width="0.127" layer="21" style="longdash"/>
+<wire x1="0.635" y1="-8.255" x2="-0.635" y2="-8.255" width="0.127" layer="21" curve="-180"/>
+<pad name="SENSE" x="2.54" y="-1.27" drill="1.1" diameter="2.1844" rot="R90"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="JACK-PLUG">
+<wire x1="-5.715" y1="1.27" x2="-5.715" y2="3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-5.715" y1="3.81" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-5.715" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="0.635" x2="0" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="0" y1="4.445" x2="-1.27" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="4.445" x2="-1.27" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-5.715" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.715" y1="-2.54" x2="-6.35" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-1.27" x2="-6.985" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<text x="-7.62" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="1" x="5.08" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0" y="-2.54"/>
+<vertex x="-0.508" y="-1.27"/>
+<vertex x="0.508" y="-1.27"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DC_JACK">
+<description>&lt;h1&gt;DC Power Jack&lt;/h1&gt;
+
+&lt;p&gt;Variants&lt;/p&gt;
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href="http://www.reichelt.de/index.html?ARTICLE=35275"&gt;Reichelt HEBO 13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="DC-PLUG" symbol="JACK-PLUG" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="DC_JACK_HEBO13">
+<connects>
+<connect gate="DC-PLUG" pin="1" pad="OUTER"/>
+<connect gate="DC-PLUG" pin="2" pad="SENSE"/>
+<connect gate="DC-PLUG" pin="3" pad="INNER"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12718,7 +12793,9 @@ Source: www.kingbright.com</description>
 <part name="R4" library="resistor" deviceset="R-EU_" device="0207/10" value="1,5K"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="bl"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="0207/10" value="220R"/>
-<part name="JP1" library="jumper" deviceset="JP1E" device=""/>
+<part name="JP1" library="jumper" deviceset="JP1E" device="" value="Y"/>
+<part name="U$1" library="n39" deviceset="DC_JACK" device=""/>
+<part name="JP2" library="jumper" deviceset="JP1E" device="" value="POWER"/>
 </parts>
 <sheets>
 <sheet>
@@ -12727,8 +12804,8 @@ Source: www.kingbright.com</description>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="55.88" y="58.42"/>
-<instance part="GND1" gate="1" x="-7.62" y="20.32"/>
-<instance part="SUPPLY1" gate="G$1" x="-7.62" y="78.74"/>
+<instance part="GND1" gate="1" x="-25.4" y="20.32"/>
+<instance part="SUPPLY1" gate="G$1" x="-25.4" y="78.74"/>
 <instance part="C4" gate="G$1" x="-2.54" y="50.8"/>
 <instance part="C3" gate="G$1" x="76.2" y="45.72"/>
 <instance part="R1" gate="G$1" x="22.86" y="50.8" rot="R90"/>
@@ -12740,6 +12817,8 @@ Source: www.kingbright.com</description>
 <instance part="LED1" gate="G$1" x="7.62" y="40.64"/>
 <instance part="R5" gate="G$1" x="7.62" y="58.42" rot="R90"/>
 <instance part="JP1" gate="A" x="116.84" y="43.18" rot="R270"/>
+<instance part="U$1" gate="DC-PLUG" x="-17.78" y="43.18"/>
+<instance part="JP2" gate="A" x="116.84" y="60.96" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -12760,14 +12839,23 @@ Source: www.kingbright.com</description>
 <junction x="22.86" y="73.66"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 <wire x1="7.62" y1="73.66" x2="-2.54" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="73.66" x2="-7.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="73.66" x2="-12.7" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="73.66" x2="-25.4" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="73.66" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="-2.54" y1="53.34" x2="-2.54" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-2.54" y="73.66"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="63.5" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
 <junction x="7.62" y="73.66"/>
+<pinref part="U$1" gate="DC-PLUG" pin="3"/>
+<wire x1="-12.7" y1="45.72" x2="-12.7" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-12.7" y="73.66"/>
+<wire x1="71.12" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="73.66" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
+<junction x="71.12" y="73.66"/>
+<pinref part="JP2" gate="A" pin="1"/>
+<wire x1="111.76" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -12787,8 +12875,9 @@ Source: www.kingbright.com</description>
 <junction x="22.86" y="27.94"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="7.62" y1="27.94" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="27.94" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="27.94" x2="-7.62" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="27.94" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="27.94" x2="-25.4" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="-"/>
 <wire x1="-2.54" y1="45.72" x2="-2.54" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-2.54" y="27.94"/>
@@ -12803,6 +12892,13 @@ Source: www.kingbright.com</description>
 <wire x1="111.76" y1="40.64" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="27.94" x2="91.44" y2="27.94" width="0.1524" layer="91"/>
 <junction x="91.44" y="27.94"/>
+<pinref part="U$1" gate="DC-PLUG" pin="1"/>
+<wire x1="-12.7" y1="40.64" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-12.7" y="27.94"/>
+<wire x1="111.76" y1="40.64" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+<junction x="111.76" y="40.64"/>
+<pinref part="JP2" gate="A" pin="2"/>
+<wire x1="111.76" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
