@@ -12792,7 +12792,7 @@ Source: www.kingbright.com</description>
 <part name="R3" library="resistor" deviceset="R-EU_" device="0207/10" value="4,7K"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="0207/10" value="1,5K"/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="bl"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="0207/10" value="220R"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="0207/10" value="330R"/>
 <part name="JP1" library="jumper" deviceset="JP1E" device="" value="Y"/>
 <part name="U$1" library="n39" deviceset="DC_JACK" device=""/>
 <part name="JP2" library="jumper" deviceset="JP1E" device="" value="POWER"/>
