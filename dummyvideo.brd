@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -39,7 +39,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -56,15 +56,19 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="18.72" y2="0" width="0" layer="20"/>
-<wire x1="18.72" y1="0" x2="18.72" y2="32.375" width="0" layer="20"/>
-<wire x1="18.72" y1="32.375" x2="0" y2="32.375" width="0" layer="20"/>
-<wire x1="0" y1="32.375" x2="0" y2="0" width="0" layer="20"/>
-<circle x="3.81" y="28.575" radius="4.1" width="0.254" layer="20"/>
-<circle x="14.605" y="3.81" radius="4.1" width="0.254" layer="20"/>
 <text x="17.78" y="28.575" size="1.27" layer="1" font="vector" ratio="15" rot="R90">Y</text>
 <text x="9.525" y="29.21" size="1.016" layer="1" font="vector" ratio="15">Dummy
 Video</text>
+<wire x1="18.7198" y1="32.385" x2="7.0104" y2="32.385" width="0.0254" layer="20"/>
+<wire x1="7.0104" y1="32.385" x2="7.0104" y2="31.1404" width="0.0254" layer="20"/>
+<wire x1="0" y1="24.9936" x2="0" y2="0" width="0.0254" layer="20"/>
+<wire x1="0" y1="24.9936" x2="1.8034" y2="24.9936" width="0.0254" layer="20"/>
+<wire x1="1.8034" y1="24.9936" x2="7.013159375" y2="31.1426125" width="0.0254" layer="20" curve="157.976425"/>
+<wire x1="10.9982" y1="1.8542" x2="10.9982" y2="0" width="0.0254" layer="20"/>
+<wire x1="0" y1="0" x2="10.9982" y2="0" width="0.0254" layer="20"/>
+<wire x1="18.7198" y1="7.0104" x2="18.7198" y2="32.385" width="0.0254" layer="20"/>
+<wire x1="17.1704" y1="7.0104" x2="18.7198" y2="7.0104" width="0.0254" layer="20"/>
+<wire x1="17.1704" y1="7.0104" x2="10.99930625" y2="1.8548" width="0.0254" layer="20" curve="157.184137"/>
 </plain>
 <libraries>
 <library name="resistor">
